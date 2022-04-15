@@ -1,9 +1,10 @@
 {
   "name": "consecutive-days",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Node.js module that returns the consecutive days or times",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,10 +15,14 @@
     "date",
     "datetime"
   ],
-  "author": "Suhyeon Jang",
+  "author": "Suhyeon Jang <suhy.jang.shj@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/suhy-jang/consecutive-days/issues"
   },
-  "homepage": "https://github.com/suhy-jang/consecutive-days#readme"
+  "homepage": "https://github.com/suhy-jang/consecutive-days#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3",
+    "typings": "^2.1.1"
+  }
 }
