@@ -1,0 +1,23 @@
+{
+  "name": "consecutive-days",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhy-jang/consecutive-days.git"
+  },
+  "keywords": [
+    "date",
+    "datetime"
+  ],
+  "author": "Suhyeon Jang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suhy-jang/consecutive-days/issues"
+  },
+  "homepage": "https://github.com/suhy-jang/consecutive-days#readme"
+}
