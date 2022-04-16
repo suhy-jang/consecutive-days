@@ -1,6 +1,6 @@
 'use strict';
 const expect = require('chai').expect;
-const index = require('../dist/src/index.js');
+const index = require('../lib/index.js');
 
 describe('days function test', () => {
   it('should return an array of consecutive dates with descending order', () => {
