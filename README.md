@@ -14,7 +14,7 @@ bower install consecutive-days --save
 ### Javascript
 ```javascript
 const consecutiveDays = require('consecutive-days');
-const days = consecutiveDays.days(new Date(), 10, 1);
+const days = consecutiveDays.days(new Date(), 10, true);
 ```
 ```sh
 Output should be an array of 10 consecutive days
@@ -23,10 +23,10 @@ Output should be an array of 10 consecutive days
 ### typescript
 ```typescript
 import consecutiveDays from 'consecutive-days';
-const days = consecutiveDays.days(new Date(), 10, 2);
+const days = consecutiveDays.days(new Date(), 10, true);
 ```
 ```sh
-Output should be an array of 10 consecutive second of days
+Output should be an array of 10 consecutive days
 ```
 
 ## test
