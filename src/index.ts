@@ -1,2 +1,4 @@
 import days from './days';
-export { days };
+import hours from './hours';
+
+export { days, hours };
